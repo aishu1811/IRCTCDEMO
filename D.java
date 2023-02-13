@@ -51,7 +51,7 @@ public class D extends Baseclass {
 					Thread.sleep(2000);
 					p.getClassbtn().click();
 					p.getSecondac().click();
-				Thread.sleep(2000);
+				       Thread.sleep(2000);
 					WebElement searchbtn = driver.findElement(By.xpath("//button[@type='submit']"));
 					searchbtn.click();
 					Thread.sleep(2000);
